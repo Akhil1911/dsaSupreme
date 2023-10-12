@@ -25,8 +25,11 @@ int main()
     // }
     //     cout << "'After 4';";
 
-    int a = 5;
+    int a = 100;
     // a = ++a;
-    cout << (++a) << " " << (++a) << endl;
-    cout << (++a) << " " << (++a);
+    // cout << (++a) << " " << (++a) << endl;
+    // cout << (++a) << " " << (++a);
+
+    a = a >> 1;
+    cout << a;
 }
